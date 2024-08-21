@@ -1,0 +1,14 @@
+[package]
+name = "one"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-client = "1.18.22"
+solana-sdk = "1.18.22"
+rand = "0.8" 
+dotenvy = "0.15"
+tokio = { version = "1", features = ["full"] }  # For async support
+spl-token = "3.5.0"
+mpl-token-metadata = "4.1.2"
+spl-associated-token-account = "2.3.0"
