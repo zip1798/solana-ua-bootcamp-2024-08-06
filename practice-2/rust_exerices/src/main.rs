@@ -28,7 +28,7 @@ async fn main() {
 
     let associated_token_account: Pubkey = create_associated_account(&keypair, &wallet, &mint_keypair);
 
-    mint_token(&keypair, &mint_keypair, &wallet, &associated_token_account, 102_00);
+    mint_token(&keypair, &mint_keypair, &wallet, &associated_token_account, 177_00);
 
     let token_name = "Solana UA Bootcamp 2024-08-06";
     let token_symbol = "UAB-2";

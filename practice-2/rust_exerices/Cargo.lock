@@ -2241,6 +2241,7 @@ dependencies = [
  "mpl-token-metadata",
  "rand 0.8.5",
  "solana-client",
+ "solana-program",
  "solana-sdk",
  "spl-associated-token-account",
  "spl-token 3.5.0",
